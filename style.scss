@@ -1,0 +1,128 @@
+// Scss Document
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap');
+/* Variables */
+$roboto: "Roboto Slab", serif;
+$bg-brown: rgba(125, 96, 64, 0.6);
+$bg-tan: rgba(224, 219, 215, 0.7);
+$green: #626142;
+$dg: #384734;
+$db: #524937;
+$mullish: "Mulish", serif;
+$white: #fff;
+
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+body{
+    margin: 0 auto;
+}
+h1{
+    font: 4rem  / 4.2rem $roboto;
+    color: $green;
+    font-weight: 400;
+    margin: 0 auto;
+}
+h2{
+    font: 2.5rem / 2.7rem $roboto;
+    color: $dg;
+    font-weight: 200;
+    margin: 0 auto;
+}
+h3{
+    font: 3.125rem / 3.325rem $roboto;
+    color: $green;
+    font-weight: 600;
+    margin: 0 auto;
+}
+p{
+    font: 1.5rem / 1.7rem $mullish;
+    color: $dg;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.test{
+    border: 2px solid red;
+}
+#test{
+    border: 2px solid red;
+}
+header{
+    background-color: $bg-tan;
+    width: 52.875rem;
+    height: 12rem;
+    border-radius: 0 1rem 1rem 0;
+    padding: 2.25rem 0;
+    margin: 7.1785rem 0 4.4375rem;
+    h1, h2{
+        margin-left: 5rem;
+    }
+}
+#zen-summary{
+    background-color: $bg-tan;
+    width: 52.875rem;
+    height: 12rem;
+    border-radius: 0 1rem 1rem 0;
+    padding: 2.25rem 0;
+    margin: 7.1785rem 0 4.4375rem;
+    p{
+        margin-left: 5rem;
+        width: 35.6875rem;
+        padding-bottom: .75rem;
+    }
+    a{
+        color: $green;
+        text-decoration: none;
+        
+        &:hover{
+            cursor: pointer;
+            color: $bg-brown;
+            font-size: 1.75rem;
+            text-decoration: underline;
+        }
+    }
+}
+#zen-preamble{
+    margin-bottom: 4.375rem;
+    h3{
+        text-align: center;
+        margin-bottom: 4.4375rem;
+    }
+    p{
+        text-align: start;
+        width: 30.5rem;
+        margin-left: 20rem;
+        margin-bottom: 1rem;
+    }
+}
+.explanation{
+//    display: flex;
+//    align-items: flex-start;
+    margin-bottom: 4.375rem;
+    gap: 1rem;
+    h3{
+        width: 11.43rem;
+    }
+    p{
+//      display: block
+        margin-bottom: 1rem;
+        width: 44.25rem;
+    }
+}
+.participation{
+    h3{
+        color: $white;
+        width: 100%;
+        background-color: $bg-brown;
+        text-align: center;
+        padding: 3.625rem 0;
+        margin-bottom: 4.375rem;
+    }
+    p{
+        width: 48.8125rem; 
+        margin-bottom: 1rem;
+    }
+}// Scss Document
+

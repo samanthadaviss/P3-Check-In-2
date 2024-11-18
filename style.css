@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap");
+/* Variables */
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%; }
+
+body {
+  margin: 0 auto; }
+
+h1 {
+  font: 4rem/4.2rem "Roboto Slab", serif;
+  color: #626142;
+  font-weight: 400;
+  margin: 0 auto; }
+
+h2 {
+  font: 2.5rem/2.7rem "Roboto Slab", serif;
+  color: #384734;
+  font-weight: 200;
+  margin: 0 auto; }
+
+h3 {
+  font: 3.125rem/3.325rem "Roboto Slab", serif;
+  color: #626142;
+  font-weight: 600;
+  margin: 0 auto; }
+
+p {
+  font: 1.5rem/1.7rem "Mulish", serif;
+  color: #384734;
+  font-weight: 400;
+  margin: 0 auto; }
+
+.test {
+  border: 2px solid red; }
+
+#test {
+  border: 2px solid red; }
+
+header {
+  background-color: rgba(224, 219, 215, 0.7);
+  width: 52.875rem;
+  height: 12rem;
+  border-radius: 0 1rem 1rem 0;
+  padding: 2.25rem 0;
+  margin: 7.1785rem 0 4.4375rem; }
+  header h1, header h2 {
+    margin-left: 5rem; }
+
+#zen-summary {
+  background-color: rgba(224, 219, 215, 0.7);
+  width: 52.875rem;
+  height: 12rem;
+  border-radius: 0 1rem 1rem 0;
+  padding: 2.25rem 0;
+  margin: 7.1785rem 0 4.4375rem; }
+  #zen-summary p {
+    margin-left: 5rem;
+    width: 35.6875rem;
+    padding-bottom: .75rem; }
+  #zen-summary a {
+    color: #626142;
+    text-decoration: none; }
+    #zen-summary a:hover {
+      cursor: pointer;
+      color: rgba(125, 96, 64, 0.6);
+      font-size: 1.75rem;
+      text-decoration: underline; }
+
+#zen-preamble {
+  margin-bottom: 4.375rem; }
+  #zen-preamble h3 {
+    text-align: center;
+    margin-bottom: 4.4375rem; }
+  #zen-preamble p {
+    text-align: start;
+    width: 30.5rem;
+    margin-left: 20rem;
+    margin-bottom: 1rem; }
+
+.explanation {
+  margin-bottom: 4.375rem;
+  gap: 1rem; }
+  .explanation h3 {
+    width: 11.43rem; }
+  .explanation p {
+    margin-bottom: 1rem;
+    width: 44.25rem; }
+
+.participation h3 {
+  color: #fff;
+  width: 100%;
+  background-color: rgba(125, 96, 64, 0.6);
+  text-align: center;
+  padding: 3.625rem 0;
+  margin-bottom: 4.375rem; }
+.participation p {
+  width: 48.8125rem;
+  margin-bottom: 1rem; }
